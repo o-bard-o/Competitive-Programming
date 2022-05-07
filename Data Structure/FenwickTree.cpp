@@ -6,8 +6,8 @@ using namespace std;
 using ll = long long;
 using vll = vector<ll>;
 
-int max_n;
-
+// Fenwick Tree
+const int max_n = 1000000;
 vll v(max_n);
 vll tree(max_n);
 ll query (ll i) {
