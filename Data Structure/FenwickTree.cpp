@@ -7,7 +7,7 @@ using ll = long long;
 using vll = vector<ll>;
 
 // Fenwick Tree
-const int max_n = 1000000;
+const int max_n = 1000001;
 vll v(max_n);
 vll tree(max_n);
 ll query (ll i) {
