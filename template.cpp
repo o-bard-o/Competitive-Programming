@@ -7,6 +7,7 @@
 #define cv(v) for(auto& x: v) cin >> x
 #define pb(x) push_back(x)
 #define sz(v) int(v.size())
+#define all(v) v.begin(), v.end()
 #define no "NO"
 #define yes "YES"
 #define X first
@@ -18,9 +19,32 @@
 #pragma GCC optimize("unroll-loops")
 using namespace std;
 using ll = long long;
+using ld = long double;
 using pll = pair<ll, ll>;
+using pld = pair<ld, ld>;
 using vll = vector<ll>;
+using vpll = vector<pll>;
 using vc = vector<char>;
+
+template<typename T>
+void ci(T& t) {
+  cin >> t;
+}
+template <typename F, typename... R>
+void ci(F& f, R&...r) {
+  cin >> f;
+  ci(r...);
+}
+
+template<typename T>
+void co(T& t) {
+  cout << t;
+}
+template <typename F, typename... R>
+void co(F& f, R&...r) {
+  cout << f;
+  co(r...);
+}
 
 void solve() {
   
