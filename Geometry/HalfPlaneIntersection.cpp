@@ -13,9 +13,9 @@ using pld = pair<ld, ld>;
 const ld eps = 1e-8;
 
 ld ccw(pld a, pld b, pld c){
-	ld dx1 = b.X - a.X, dy1 = b.Y - a.Y;
-	ld dx2 = c.X - a.X, dy2 = c.Y - a.Y;
-	return dx1 * dy2 - dy1 * dx2;
+  ld dx1 = b.X - a.X, dy1 = b.Y - a.Y;
+  ld dx2 = c.X - a.X, dy2 = c.Y - a.Y;
+  return dx1 * dy2 - dy1 * dx2;
 }
 
 bool z(ld x) { return fabs(x) < eps; };
