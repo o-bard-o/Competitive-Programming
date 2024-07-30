@@ -38,11 +38,11 @@ void ci(F& f, R&...r) {
 
 template<typename T>
 void co(T& t) {
-  cout << t;
+  cout << t << endl;
 }
 template <typename F, typename... R>
 void co(F& f, R&...r) {
-  cout << f;
+  cout << f << ' ';
   co(r...);
 }
 
