@@ -14,6 +14,7 @@
 #define Y second
 #define endl '\n'
 #define PI acos(-1)
+#define int long long
 #pragma GCC optimize("O3")
 #pragma GCC optimize("Ofast")
 #pragma GCC optimize("unroll-loops")
@@ -51,7 +52,7 @@ void solve() {
   return;
 }
 
-int main() {
+signed main() {
   cin.tie(0) -> sync_with_stdio(0);
 
   int tt = 1;
